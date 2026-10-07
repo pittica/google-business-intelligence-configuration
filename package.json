@@ -1,7 +1,7 @@
 {
   "name": "@pittica/google-business-intelligence-configuration",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Configuration for business intelligence for Google Cloud.",
   "main": "dist/index.js",
   "scripts": {
@@ -24,11 +24,14 @@
     "url": "https://github.com/pittica/google-business-intelligence-configuration/issues"
   },
   "homepage": "https://github.com/pittica/google-business-intelligence-configuration#README.md",
+  "engines": {
+    "node": ">=24.11.0"
+  },
   "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.28.6",
+    "@babel/cli": "^8.0.6",
     "mkdirp": "^3.0.1",
-    "prettier": "^3.7.4",
+    "prettier": "^3.9.9",
     "rimraf": "^6.1.2"
   }
 }

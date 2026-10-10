@@ -40,6 +40,7 @@ exports.config = (config = {}) => {
       json: path.join(process.cwd(), "json"),
       sql: path.join(process.cwd(), "sql"),
       bootstrap: null,
+      safe: [],
     },
     order: [],
     bootstrap: [],

@@ -21,6 +21,7 @@ const path = require("path")
  */
 exports.config = (config = {}) => {
   const initial = {
+    projectId: null,
     bucket: {
       upload: "upload",
       temporary: "temp",

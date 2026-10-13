@@ -27,11 +27,16 @@ exports.config = (config = {}) => {
       upload: "upload",
       temporary: "temp",
       archive: "archive",
+      backup: "backup",
     },
     pubSub: {
       message: "upload",
     },
     dataset: {
+      data: {
+        name: "data",
+        location: "us-central1",
+      },
       temporary: {
         name: "tmp",
         prefix: "tmp_csv_",
@@ -46,6 +51,9 @@ exports.config = (config = {}) => {
     },
     order: [],
     bootstrap: [],
+    backup: {
+      days: 3,
+    },
   }
 
   global.config = {

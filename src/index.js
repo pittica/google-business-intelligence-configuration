@@ -48,11 +48,18 @@ exports.config = (config = {}) => {
       sql: path.join(process.cwd(), "sql"),
       bootstrap: null,
       safe: [],
+      list: {
+        file: "filelist",
+        extension: "TXT",
+      },
     },
     order: [],
     bootstrap: [],
     backup: {
       days: 3,
+    },
+    date: {
+      format: "YYYY-MM-DD",
     },
   }
 
